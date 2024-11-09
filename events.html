@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        #btn {
+            background-color: red;
+            color: white;
+            padding: 12px;
+            border: 2px solid black;
+            border-radius: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: auto;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit animi mollitia itaque. Amet
+            placeat voluptatibus modi accusantium ab, expedita nemo dignissimos corporis, consectetur in sit ipsa
+            perferendis! Omnis, minus iure velit animi rerum dolorem est error praesentium earum tempora eum accusantium
+            tempore totam pariatur aperiam soluta dicta natus neque nobis doloremque. Minima reprehenderit adipisci,
+            optio eaque corrupti perspiciatis asperiores dignissimos porro? Recusandae, officiis nesciunt aspernatur
+            eius tempora adipisci delectus esse. Ex eveniet officiis error nostrum accusamus. Officia, numquam eveniet.
+            Dolorum ex, eveniet odio porro sunt natus, vel, repudiandae autem accusantium similique voluptatibus sint
+            modi iste quidem exercitationem debitis? Nemo illum dicta officiis mollitia minus ea. Consequatur dolorem
+            rerum, id earum explicabo qui et pariatur minus libero commodi veniam a ut beatae ad tempore dicta labore,
+            enim odit accusantium debitis, illo illum nobis ratione placeat! Iste magnam excepturi cum neque. Magnam
+            assumenda facilis fugit minus nobis provident ex nostrum corporis commodi dolorem, optio mollitia natus
+            inventore quod culpa delectus. Doloremque eveniet, eum odio blanditiis quas corporis velit deleniti facere
+            in dolores placeat reiciendis architecto sequi inventore beatae molestiae quasi qui corrupti ut consequatur
+            aut hic? Ipsam mollitia impedit, quo vel minus temporibus blanditiis cum, animi, sunt voluptatum eius et
+            atque ad!</p>
+    </div>
+
+    <button id="btn" onclick="hide()">show/hide </button>
+    <script>
+        
+            let btn = document.getElementById('btn');
+            let apurv = document.getElementById('para');
+            apurv.addEventListener('mouseover', function ap() {
+                console.log("mouse inside")
+
+            })
+
+            para.addEventListener('mouseout', function out() {
+                console.log("mouse outside")
+            })
+
+             
+        
+    </script>
+</body>
+
+</html>
